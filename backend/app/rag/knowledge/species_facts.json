@@ -1,0 +1,27 @@
+[
+  {
+    "id": "species-001",
+    "title": "Green Sea Turtle (Chelonia mydas)",
+    "text": "The green sea turtle (Chelonia mydas) is a large marine turtle found in tropical and subtropical waters worldwide. Unlike most sea turtles, adults are primarily herbivorous, feeding on seagrasses and algae, which gives their body fat a greenish color and the species its common name. They can grow up to 1.5 meters in shell length and weigh over 150 kg. Green turtles undertake long migrations between feeding grounds and nesting beaches, sometimes traveling thousands of kilometers. They are listed as Endangered by the IUCN due to historical overharvesting, egg collection, habitat loss, and bycatch in fishing gear."
+  },
+  {
+    "id": "species-002",
+    "title": "Orca / Killer Whale (Orcinus orca)",
+    "text": "The orca (Orcinus orca) is the largest member of the dolphin family and one of the ocean's apex predators. Orcas live in matrilineal pods and exhibit some of the most complex social structures known in marine mammals, including distinct vocal dialects unique to each pod. Different ecotypes specialize in different prey: some populations hunt fish almost exclusively, while others target marine mammals including seals and even other whale species. Orcas are found in every ocean, from the Arctic to the Antarctic, though they are most abundant in colder, higher-latitude waters."
+  },
+  {
+    "id": "species-003",
+    "title": "Whale Shark (Rhincodon typus)",
+    "text": "The whale shark (Rhincodon typus) is the largest fish species alive today, reaching lengths of up to 18 meters. Despite its enormous size, it is a filter feeder, straining plankton, small fish, and fish eggs from the water through specialized gill structures. Whale sharks are found in warm tropical and subtropical waters and are known to undertake long-distance migrations, sometimes crossing entire ocean basins. They are listed as Endangered, with vessel strikes and bycatch among the leading threats."
+  },
+  {
+    "id": "species-004",
+    "title": "Giant Pacific Octopus (Enteroctopus dofleini)",
+    "text": "The giant Pacific octopus (Enteroctopus dofleini) is one of the largest octopus species, with arm spans that can exceed 4 meters. It inhabits the cold coastal waters of the North Pacific, from Japan to California. Like all octopuses, it has no internal or external skeleton, allowing it to squeeze through remarkably small openings. It has a short lifespan for its size, typically living only 3-5 years, and females die shortly after their single brood of eggs hatches, having stopped feeding to guard the eggs for months."
+  },
+  {
+    "id": "species-005",
+    "title": "Crown-of-Thorns Starfish (Acanthaster planci)",
+    "text": "The crown-of-thorns starfish (Acanthaster planci) is a coral-eating starfish covered in venomous spines, found throughout the Indo-Pacific. In normal numbers it plays a role in maintaining coral diversity by preferentially eating fast-growing coral species. However, population outbreaks - sometimes linked to nutrient runoff and reduced numbers of natural predators like the triton snail - can devastate reef systems, as a single outbreak can consume large areas of living coral in a short period."
+  }
+]

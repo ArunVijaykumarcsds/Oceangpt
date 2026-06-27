@@ -1,0 +1,32 @@
+[
+  {
+    "id": "glossary-001",
+    "title": "Thermocline",
+    "text": "A thermocline is a thin but distinct layer in a body of water, such as an ocean, in which temperature changes more rapidly with depth than it does in the layers above or below. In tropical oceans, a permanent thermocline typically exists year-round at depths of roughly 200-1000 meters, separating the warm, well-mixed surface layer from the cold deep ocean. Thermoclines affect sound propagation, marine life distribution, and play an important role in ocean heat storage and climate regulation."
+  },
+  {
+    "id": "glossary-002",
+    "title": "Upwelling",
+    "text": "Upwelling is an oceanographic process in which deep, cold, nutrient-rich water rises toward the surface, typically driven by wind patterns that push surface water away from a coastline, allowing deeper water to replace it. Major upwelling zones, such as those off the coasts of Peru, California, and northwest Africa, support some of the most productive fisheries in the world because the nutrients fuel large phytoplankton blooms that form the base of the marine food web."
+  },
+  {
+    "id": "glossary-003",
+    "title": "Exclusive Economic Zone (EEZ)",
+    "text": "An Exclusive Economic Zone (EEZ) is a sea zone over which a coastal state has special rights for the exploration and use of marine resources, including energy production from water and wind. EEZs typically extend 200 nautical miles from a country's coastline, as defined by the United Nations Convention on the Law of the Sea (UNCLOS). Within its EEZ, a state has rights to fishing, drilling, and other economic activities, though it does not have the same full sovereignty as over its territorial waters (which extend only 12 nautical miles)."
+  },
+  {
+    "id": "glossary-004",
+    "title": "Ocean Acidification",
+    "text": "Ocean acidification refers to the ongoing decrease in the pH of Earth's oceans, caused primarily by the uptake of carbon dioxide (CO2) from the atmosphere. As CO2 dissolves in seawater, it forms carbonic acid, which lowers pH and reduces the availability of carbonate ions needed by many marine organisms - including corals, mollusks, and some plankton - to build their calcium carbonate shells and skeletons. Average ocean surface pH has dropped by about 0.1 units since the pre-industrial era, representing roughly a 30% increase in acidity."
+  },
+  {
+    "id": "glossary-005",
+    "title": "Bathymetry",
+    "text": "Bathymetry is the study and mapping of underwater depth and topography, equivalent to topography on land. Modern bathymetric data is collected primarily via multibeam sonar mounted on survey vessels, satellite altimetry (which infers seafloor shape from subtle variations in sea surface height caused by gravity), and increasingly by autonomous underwater vehicles. Despite decades of mapping effort, a majority of the global seafloor remains unmapped at high resolution, making bathymetry an active area of ocean exploration."
+  },
+  {
+    "id": "glossary-006",
+    "title": "Mesophotic and Deep-Sea Coral Reefs",
+    "text": "While most people picture coral reefs in shallow, sunlit tropical waters, mesophotic coral ecosystems exist in deeper water (roughly 30-150 meters) where light is reduced but still present, and deep-sea or cold-water corals can be found at depths exceeding 2000 meters in complete darkness, relying entirely on filter-feeding rather than the photosynthetic algae (zooxanthellae) that shallow corals depend on. These deep reefs, found in places like the Norwegian fjords and the Gulf of Mexico, can be hundreds to thousands of years old and host distinct, often poorly studied, biodiversity."
+  }
+]

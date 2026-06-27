@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+:root {
+  /* Abyssal palette - depths of the ocean, not generic dark-mode gray */
+  --abyss-950: #05080c;
+  --abyss-900: #0a1018;
+  --abyss-800: #111a24;
+  --abyss-700: #1a2632;
+  --abyss-600: #283848;
+
+  --line: #233140;
+  --line-soft: #16202a;
+
+  --text-primary: #e8edf2;
+  --text-secondary: #8c9bac;
+  --text-tertiary: #5a6878;
+
+  /* Bioluminescent cyan - the "live data" signal color */
+  --bio-400: #5ee8ff;
+  --bio-500: #3ddcff;
+  --bio-600: #1fb8e0;
+  --bio-glow: rgba(61, 220, 255, 0.35);
+
+  /* Warm coral - alerts, highlights, the one warm accent */
+  --coral-400: #ff9d73;
+  --coral-500: #ff8b5c;
+
+  --font-display: var(--font-space-grotesk);
+  --font-body: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+@theme inline {
+  --color-abyss-950: var(--abyss-950);
+  --color-abyss-900: var(--abyss-900);
+  --color-abyss-800: var(--abyss-800);
+  --color-abyss-700: var(--abyss-700);
+  --color-line: var(--line);
+  --color-bio-400: var(--bio-400);
+  --color-bio-500: var(--bio-500);
+  --color-bio-600: var(--bio-600);
+  --color-coral-400: var(--coral-400);
+  --color-coral-500: var(--coral-500);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--abyss-950);
+  color: var(--text-primary);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Bathymetric contour pattern - faint topographic lines suggesting seafloor depth data */
+.bathymetric-bg {
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(61, 220, 255, 0.04) 0%, transparent 45%),
+    radial-gradient(circle at 85% 75%, rgba(255, 139, 92, 0.03) 0%, transparent 40%);
+  background-color: var(--abyss-950);
+}
+
+/* Scrollbar styling to match the depth gauge aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--abyss-900);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--abyss-700);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bio-600);
+}
+
+/* Visible keyboard focus, respecting accessibility regardless of aesthetic */
+:focus-visible {
+  outline: 2px solid var(--bio-500);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes sonar-ping {
+  0% { transform: scale(0.8); opacity: 0.8; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2.4s ease-in-out infinite;
+}
